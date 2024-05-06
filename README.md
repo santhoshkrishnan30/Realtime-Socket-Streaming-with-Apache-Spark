@@ -62,6 +62,6 @@ The project is designed with the following components:
     docker-compose up
     ```
 
-For more detailed instructions, please check out the video tutorial linked below.
-
+## Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change. Feel free to ask any queries or issues with this project.
 
