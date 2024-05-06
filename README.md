@@ -61,6 +61,16 @@ The project is designed with the following components:
     ```bash
     docker-compose up
     ```
+## How It Works
+
+- **Socket Streaming Setup:** Establish a TCP/IP socket connection using Apache Spark to receive real-time data.
+
+- **Sentiment Analysis:** Apply sentiment analysis using ChatGPT on the received data to extract sentiment information.
+
+- **Integration with Kafka:** Stream the analyzed data to Kafka for distributed event processing and buffering.
+
+- **Indexing in Elasticsearch:** Index the processed data into Elasticsearch for efficient storage and retrieval based on indexed properties.
+
 
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change. Feel free to ask any queries or issues with this project.
